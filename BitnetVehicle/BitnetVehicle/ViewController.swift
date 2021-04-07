@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var splashView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.removeSplashView()
     }
 
 
+    func removeSplashView() {
+        UIView.animate(withDuration: 2, delay: 3, options: .transitionCurlDown, animations: {
+            self.splashView.alpha = 0
+        }) { _ in
+            self.splashView.removeFromSuperview()
+        }
+    }
 }
 
