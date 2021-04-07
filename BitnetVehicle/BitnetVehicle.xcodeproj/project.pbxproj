@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E247240261E65990074B6B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24723F261E65990074B6B2 /* AppDelegate.swift */; };
+		2E247242261E65990074B6B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247241261E65990074B6B2 /* SceneDelegate.swift */; };
+		2E247244261E65990074B6B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247243261E65990074B6B2 /* ViewController.swift */; };
+		2E247247261E65990074B6B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E247245261E65990074B6B2 /* Main.storyboard */; };
+		2E247249261E659A0074B6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E247248261E659A0074B6B2 /* Assets.xcassets */; };
+		2E24724C261E659A0074B6B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E24724A261E659A0074B6B2 /* LaunchScreen.storyboard */; };
+		2E247257261E659A0074B6B2 /* BitnetVehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247256261E659A0074B6B2 /* BitnetVehicleTests.swift */; };
+		2E247262261E659A0074B6B2 /* BitnetVehicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E247253261E659A0074B6B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E247234261E65990074B6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E24723B261E65990074B6B2;
+			remoteInfo = BitnetVehicle;
+		};
+		2E24725E261E659A0074B6B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E247234261E65990074B6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E24723B261E65990074B6B2;
+			remoteInfo = BitnetVehicle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E24723C261E65990074B6B2 /* BitnetVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitnetVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E24723F261E65990074B6B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E247241261E65990074B6B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E247243261E65990074B6B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E247246261E65990074B6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E247248261E659A0074B6B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E24724B261E659A0074B6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E24724D261E659A0074B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E247252261E659A0074B6B2 /* BitnetVehicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitnetVehicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E247256261E659A0074B6B2 /* BitnetVehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitnetVehicleTests.swift; sourceTree = "<group>"; };
+		2E247258261E659A0074B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E24725D261E659A0074B6B2 /* BitnetVehicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitnetVehicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitnetVehicleUITests.swift; sourceTree = "<group>"; };
+		2E247263261E659A0074B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E247239261E65990074B6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E24724F261E659A0074B6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E24725A261E659A0074B6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E247233261E65990074B6B2 = {
+			isa = PBXGroup;
+			children = (
+				2E24723E261E65990074B6B2 /* BitnetVehicle */,
+				2E247255261E659A0074B6B2 /* BitnetVehicleTests */,
+				2E247260261E659A0074B6B2 /* BitnetVehicleUITests */,
+				2E24723D261E65990074B6B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E24723D261E65990074B6B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E24723C261E65990074B6B2 /* BitnetVehicle.app */,
+				2E247252261E659A0074B6B2 /* BitnetVehicleTests.xctest */,
+				2E24725D261E659A0074B6B2 /* BitnetVehicleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E24723E261E65990074B6B2 /* BitnetVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				2E24723F261E65990074B6B2 /* AppDelegate.swift */,
+				2E247241261E65990074B6B2 /* SceneDelegate.swift */,
+				2E247243261E65990074B6B2 /* ViewController.swift */,
+				2E247245261E65990074B6B2 /* Main.storyboard */,
+				2E247248261E659A0074B6B2 /* Assets.xcassets */,
+				2E24724A261E659A0074B6B2 /* LaunchScreen.storyboard */,
+				2E24724D261E659A0074B6B2 /* Info.plist */,
+			);
+			path = BitnetVehicle;
+			sourceTree = "<group>";
+		};
+		2E247255261E659A0074B6B2 /* BitnetVehicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E247256261E659A0074B6B2 /* BitnetVehicleTests.swift */,
+				2E247258261E659A0074B6B2 /* Info.plist */,
+			);
+			path = BitnetVehicleTests;
+			sourceTree = "<group>";
+		};
+		2E247260261E659A0074B6B2 /* BitnetVehicleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */,
+				2E247263261E659A0074B6B2 /* Info.plist */,
+			);
+			path = BitnetVehicleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E24723B261E65990074B6B2 /* BitnetVehicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E247266261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicle" */;
+			buildPhases = (
+				2E247238261E65990074B6B2 /* Sources */,
+				2E247239261E65990074B6B2 /* Frameworks */,
+				2E24723A261E65990074B6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitnetVehicle;
+			productName = BitnetVehicle;
+			productReference = 2E24723C261E65990074B6B2 /* BitnetVehicle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E247251261E659A0074B6B2 /* BitnetVehicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E247269261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicleTests" */;
+			buildPhases = (
+				2E24724E261E659A0074B6B2 /* Sources */,
+				2E24724F261E659A0074B6B2 /* Frameworks */,
+				2E247250261E659A0074B6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E247254261E659A0074B6B2 /* PBXTargetDependency */,
+			);
+			name = BitnetVehicleTests;
+			productName = BitnetVehicleTests;
+			productReference = 2E247252261E659A0074B6B2 /* BitnetVehicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E24725C261E659A0074B6B2 /* BitnetVehicleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E24726C261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicleUITests" */;
+			buildPhases = (
+				2E247259261E659A0074B6B2 /* Sources */,
+				2E24725A261E659A0074B6B2 /* Frameworks */,
+				2E24725B261E659A0074B6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E24725F261E659A0074B6B2 /* PBXTargetDependency */,
+			);
+			name = BitnetVehicleUITests;
+			productName = BitnetVehicleUITests;
+			productReference = 2E24725D261E659A0074B6B2 /* BitnetVehicleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E247234261E65990074B6B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2E24723B261E65990074B6B2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2E247251261E659A0074B6B2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2E24723B261E65990074B6B2;
+					};
+					2E24725C261E659A0074B6B2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2E24723B261E65990074B6B2;
+					};
+				};
+			};
+			buildConfigurationList = 2E247237261E65990074B6B2 /* Build configuration list for PBXProject "BitnetVehicle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E247233261E65990074B6B2;
+			productRefGroup = 2E24723D261E65990074B6B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E24723B261E65990074B6B2 /* BitnetVehicle */,
+				2E247251261E659A0074B6B2 /* BitnetVehicleTests */,
+				2E24725C261E659A0074B6B2 /* BitnetVehicleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E24723A261E65990074B6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E24724C261E659A0074B6B2 /* LaunchScreen.storyboard in Resources */,
+				2E247249261E659A0074B6B2 /* Assets.xcassets in Resources */,
+				2E247247261E65990074B6B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E247250261E659A0074B6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E24725B261E659A0074B6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E247238261E65990074B6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E247244261E65990074B6B2 /* ViewController.swift in Sources */,
+				2E247240261E65990074B6B2 /* AppDelegate.swift in Sources */,
+				2E247242261E65990074B6B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E24724E261E659A0074B6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E247257261E659A0074B6B2 /* BitnetVehicleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E247259261E659A0074B6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E247262261E659A0074B6B2 /* BitnetVehicleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E247254261E659A0074B6B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E24723B261E65990074B6B2 /* BitnetVehicle */;
+			targetProxy = 2E247253261E659A0074B6B2 /* PBXContainerItemProxy */;
+		};
+		2E24725F261E659A0074B6B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E24723B261E65990074B6B2 /* BitnetVehicle */;
+			targetProxy = 2E24725E261E659A0074B6B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E247245261E65990074B6B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E247246261E65990074B6B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E24724A261E659A0074B6B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E24724B261E659A0074B6B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E247264261E659A0074B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E247265261E659A0074B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E247267261E659A0074B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449PBF3D38;
+				INFOPLIST_FILE = BitnetVehicle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E247268261E659A0074B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449PBF3D38;
+				INFOPLIST_FILE = BitnetVehicle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E24726A261E659A0074B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449PBF3D38;
+				INFOPLIST_FILE = BitnetVehicleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitnetVehicle.app/BitnetVehicle";
+			};
+			name = Debug;
+		};
+		2E24726B261E659A0074B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449PBF3D38;
+				INFOPLIST_FILE = BitnetVehicleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitnetVehicle.app/BitnetVehicle";
+			};
+			name = Release;
+		};
+		2E24726D261E659A0074B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449PBF3D38;
+				INFOPLIST_FILE = BitnetVehicleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitnetVehicle;
+			};
+			name = Debug;
+		};
+		2E24726E261E659A0074B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449PBF3D38;
+				INFOPLIST_FILE = BitnetVehicleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitnetVehicle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E247237261E65990074B6B2 /* Build configuration list for PBXProject "BitnetVehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E247264261E659A0074B6B2 /* Debug */,
+				2E247265261E659A0074B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E247266261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E247267261E659A0074B6B2 /* Debug */,
+				2E247268261E659A0074B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E247269261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E24726A261E659A0074B6B2 /* Debug */,
+				2E24726B261E659A0074B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E24726C261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E24726D261E659A0074B6B2 /* Debug */,
+				2E24726E261E659A0074B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E247234261E65990074B6B2 /* Project object */;
+}
