@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC5B4291FCE6F47E413CF54 /* Pods_BitnetVehicle_BitnetVehicleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48968FCF8CBC40A6CD45C481 /* Pods_BitnetVehicle_BitnetVehicleUITests.framework */; };
 		2E247240261E65990074B6B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24723F261E65990074B6B2 /* AppDelegate.swift */; };
 		2E247242261E65990074B6B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247241261E65990074B6B2 /* SceneDelegate.swift */; };
 		2E247244261E65990074B6B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247243261E65990074B6B2 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		2E24724C261E659A0074B6B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E24724A261E659A0074B6B2 /* LaunchScreen.storyboard */; };
 		2E247257261E659A0074B6B2 /* BitnetVehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247256261E659A0074B6B2 /* BitnetVehicleTests.swift */; };
 		2E247262261E659A0074B6B2 /* BitnetVehicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */; };
+		5B8BAACA6D4506DD1C82B769 /* Pods_BitnetVehicleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96D7723194C005B12D92ED3 /* Pods_BitnetVehicleTests.framework */; };
+		FDBAF3764F75F40523B8035D /* Pods_BitnetVehicle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897174B634C4586B6C299C6 /* Pods_BitnetVehicle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EBA3A60FB61FE89660DBFA2 /* Pods-BitnetVehicle-BitnetVehicleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicle-BitnetVehicleUITests.debug.xcconfig"; path = "Target Support Files/Pods-BitnetVehicle-BitnetVehicleUITests/Pods-BitnetVehicle-BitnetVehicleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1972D5A108C4D765B5459C1F /* Pods-BitnetVehicleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicleTests.release.xcconfig"; path = "Target Support Files/Pods-BitnetVehicleTests/Pods-BitnetVehicleTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E24723C261E65990074B6B2 /* BitnetVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitnetVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E24723F261E65990074B6B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E247241261E65990074B6B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		2E24725D261E659A0074B6B2 /* BitnetVehicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitnetVehicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitnetVehicleUITests.swift; sourceTree = "<group>"; };
 		2E247263261E659A0074B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48968FCF8CBC40A6CD45C481 /* Pods_BitnetVehicle_BitnetVehicleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitnetVehicle_BitnetVehicleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D235553AEAA4371E56C6855 /* Pods-BitnetVehicle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicle.debug.xcconfig"; path = "Target Support Files/Pods-BitnetVehicle/Pods-BitnetVehicle.debug.xcconfig"; sourceTree = "<group>"; };
+		9897174B634C4586B6C299C6 /* Pods_BitnetVehicle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitnetVehicle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D7723194C005B12D92ED3 /* Pods_BitnetVehicleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitnetVehicleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A86495F010567AFD19CDC1 /* Pods-BitnetVehicleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicleTests.debug.xcconfig"; path = "Target Support Files/Pods-BitnetVehicleTests/Pods-BitnetVehicleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E21830899853D806EC54B0F4 /* Pods-BitnetVehicle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicle.release.xcconfig"; path = "Target Support Files/Pods-BitnetVehicle/Pods-BitnetVehicle.release.xcconfig"; sourceTree = "<group>"; };
+		F8C9CDE73BB5070EE2B0E451 /* Pods-BitnetVehicle-BitnetVehicleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicle-BitnetVehicleUITests.release.xcconfig"; path = "Target Support Files/Pods-BitnetVehicle-BitnetVehicleUITests/Pods-BitnetVehicle-BitnetVehicleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBAF3764F75F40523B8035D /* Pods_BitnetVehicle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8BAACA6D4506DD1C82B769 /* Pods_BitnetVehicleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC5B4291FCE6F47E413CF54 /* Pods_BitnetVehicle_BitnetVehicleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2E247255261E659A0074B6B2 /* BitnetVehicleTests */,
 				2E247260261E659A0074B6B2 /* BitnetVehicleUITests */,
 				2E24723D261E65990074B6B2 /* Products */,
+				CAE5CEBB4A2B9D4A79A97F6A /* Pods */,
+				48F05920E26E8030FB2262D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = BitnetVehicleUITests;
 			sourceTree = "<group>";
 		};
+		48F05920E26E8030FB2262D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9897174B634C4586B6C299C6 /* Pods_BitnetVehicle.framework */,
+				48968FCF8CBC40A6CD45C481 /* Pods_BitnetVehicle_BitnetVehicleUITests.framework */,
+				A96D7723194C005B12D92ED3 /* Pods_BitnetVehicleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE5CEBB4A2B9D4A79A97F6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D235553AEAA4371E56C6855 /* Pods-BitnetVehicle.debug.xcconfig */,
+				E21830899853D806EC54B0F4 /* Pods-BitnetVehicle.release.xcconfig */,
+				0EBA3A60FB61FE89660DBFA2 /* Pods-BitnetVehicle-BitnetVehicleUITests.debug.xcconfig */,
+				F8C9CDE73BB5070EE2B0E451 /* Pods-BitnetVehicle-BitnetVehicleUITests.release.xcconfig */,
+				B2A86495F010567AFD19CDC1 /* Pods-BitnetVehicleTests.debug.xcconfig */,
+				1972D5A108C4D765B5459C1F /* Pods-BitnetVehicleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E247266261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicle" */;
 			buildPhases = (
+				0C0A09D605DD52C2D8B8623B /* [CP] Check Pods Manifest.lock */,
 				2E247238261E65990074B6B2 /* Sources */,
 				2E247239261E65990074B6B2 /* Frameworks */,
 				2E24723A261E65990074B6B2 /* Resources */,
+				BF1C9D6596705B771B83CE8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E247269261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicleTests" */;
 			buildPhases = (
+				BD9DC5B006BB90F79C41FE7A /* [CP] Check Pods Manifest.lock */,
 				2E24724E261E659A0074B6B2 /* Sources */,
 				2E24724F261E659A0074B6B2 /* Frameworks */,
 				2E247250261E659A0074B6B2 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E24726C261E659A0074B6B2 /* Build configuration list for PBXNativeTarget "BitnetVehicleUITests" */;
 			buildPhases = (
+				881A8B6BC25DBD08BE7A34E8 /* [CP] Check Pods Manifest.lock */,
 				2E247259261E659A0074B6B2 /* Sources */,
 				2E24725A261E659A0074B6B2 /* Frameworks */,
 				2E24725B261E659A0074B6B2 /* Resources */,
+				F7347E92C722D8D9B93504C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C0A09D605DD52C2D8B8623B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitnetVehicle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881A8B6BC25DBD08BE7A34E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitnetVehicle-BitnetVehicleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9DC5B006BB90F79C41FE7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitnetVehicleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1C9D6596705B771B83CE8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitnetVehicle/Pods-BitnetVehicle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitnetVehicle/Pods-BitnetVehicle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitnetVehicle/Pods-BitnetVehicle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7347E92C722D8D9B93504C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitnetVehicle-BitnetVehicleUITests/Pods-BitnetVehicle-BitnetVehicleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitnetVehicle-BitnetVehicleUITests/Pods-BitnetVehicle-BitnetVehicleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitnetVehicle-BitnetVehicleUITests/Pods-BitnetVehicle-BitnetVehicleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E247238261E65990074B6B2 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		2E247267261E659A0074B6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D235553AEAA4371E56C6855 /* Pods-BitnetVehicle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		2E247268261E659A0074B6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21830899853D806EC54B0F4 /* Pods-BitnetVehicle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		2E24726A261E659A0074B6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A86495F010567AFD19CDC1 /* Pods-BitnetVehicleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		2E24726B261E659A0074B6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1972D5A108C4D765B5459C1F /* Pods-BitnetVehicleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		2E24726D261E659A0074B6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBA3A60FB61FE89660DBFA2 /* Pods-BitnetVehicle-BitnetVehicleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		2E24726E261E659A0074B6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C9CDE73BB5070EE2B0E451 /* Pods-BitnetVehicle-BitnetVehicleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

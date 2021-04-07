@@ -1,0 +1,6 @@
+framework module Pods_BitnetVehicleTests {
+  umbrella header "Pods-BitnetVehicleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
