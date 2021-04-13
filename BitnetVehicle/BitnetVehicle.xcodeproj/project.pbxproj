@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,12 @@
 		2E24724C261E659A0074B6B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E24724A261E659A0074B6B2 /* LaunchScreen.storyboard */; };
 		2E247257261E659A0074B6B2 /* BitnetVehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247256261E659A0074B6B2 /* BitnetVehicleTests.swift */; };
 		2E247262261E659A0074B6B2 /* BitnetVehicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */; };
+		2E2472DC261F9DA90074B6B2 /* VehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2472DA261F9DA90074B6B2 /* VehicleCell.swift */; };
+		2E2472DD261F9DA90074B6B2 /* VehicleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2472DB261F9DA90074B6B2 /* VehicleCell.xib */; };
+		2E2472FD261FA9EE0074B6B2 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2472FC261FA9EE0074B6B2 /* ApiRequest.swift */; };
+		2E247302261FAA1A0074B6B2 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247301261FAA1A0074B6B2 /* ApiClient.swift */; };
+		2E247307261FAAB00074B6B2 /* GeneralRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E247306261FAAB00074B6B2 /* GeneralRequest.swift */; };
+		2E24730C261FAAE80074B6B2 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24730B261FAAE80074B6B2 /* Vehicle.swift */; };
 		5B8BAACA6D4506DD1C82B769 /* Pods_BitnetVehicleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96D7723194C005B12D92ED3 /* Pods_BitnetVehicleTests.framework */; };
 		FDBAF3764F75F40523B8035D /* Pods_BitnetVehicle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897174B634C4586B6C299C6 /* Pods_BitnetVehicle.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +60,12 @@
 		2E24725D261E659A0074B6B2 /* BitnetVehicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitnetVehicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E247261261E659A0074B6B2 /* BitnetVehicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitnetVehicleUITests.swift; sourceTree = "<group>"; };
 		2E247263261E659A0074B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2472DA261F9DA90074B6B2 /* VehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCell.swift; sourceTree = "<group>"; };
+		2E2472DB261F9DA90074B6B2 /* VehicleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleCell.xib; sourceTree = "<group>"; };
+		2E2472FC261FA9EE0074B6B2 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		2E247301261FAA1A0074B6B2 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		2E247306261FAAB00074B6B2 /* GeneralRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRequest.swift; sourceTree = "<group>"; };
+		2E24730B261FAAE80074B6B2 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		48968FCF8CBC40A6CD45C481 /* Pods_BitnetVehicle_BitnetVehicleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitnetVehicle_BitnetVehicleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D235553AEAA4371E56C6855 /* Pods-BitnetVehicle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitnetVehicle.debug.xcconfig"; path = "Target Support Files/Pods-BitnetVehicle/Pods-BitnetVehicle.debug.xcconfig"; sourceTree = "<group>"; };
 		9897174B634C4586B6C299C6 /* Pods_BitnetVehicle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitnetVehicle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +130,7 @@
 			children = (
 				2E24723F261E65990074B6B2 /* AppDelegate.swift */,
 				2E247241261E65990074B6B2 /* SceneDelegate.swift */,
-				2E247243261E65990074B6B2 /* ViewController.swift */,
+				2E2472D1261F9C580074B6B2 /* Vehicles */,
 				2E247245261E65990074B6B2 /* Main.storyboard */,
 				2E247248261E659A0074B6B2 /* Assets.xcassets */,
 				2E24724A261E659A0074B6B2 /* LaunchScreen.storyboard */,
@@ -145,6 +157,76 @@
 			path = BitnetVehicleUITests;
 			sourceTree = "<group>";
 		};
+		2E2472D1261F9C580074B6B2 /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				2E2472F1261FA91B0074B6B2 /* Domain */,
+				2E2472D7261F9D260074B6B2 /* Presentation */,
+				2E2472D5261F9D0D0074B6B2 /* Data */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		2E2472D5261F9D0D0074B6B2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2E2472F3261FA9570074B6B2 /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2E2472D7261F9D260074B6B2 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2E2472D8261F9D4C0074B6B2 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2E2472D8261F9D4C0074B6B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E2472D9261F9D6D0074B6B2 /* Cell */,
+				2E247243261E65990074B6B2 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2472D9261F9D6D0074B6B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2E2472DA261F9DA90074B6B2 /* VehicleCell.swift */,
+				2E2472DB261F9DA90074B6B2 /* VehicleCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2E2472F1261FA91B0074B6B2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2E2472F2261FA9220074B6B2 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2E2472F2261FA9220074B6B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E24730B261FAAE80074B6B2 /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E2472F3261FA9570074B6B2 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2E247306261FAAB00074B6B2 /* GeneralRequest.swift */,
+				2E2472FC261FA9EE0074B6B2 /* ApiRequest.swift */,
+				2E247301261FAA1A0074B6B2 /* ApiClient.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		48F05920E26E8030FB2262D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +247,6 @@
 				B2A86495F010567AFD19CDC1 /* Pods-BitnetVehicleTests.debug.xcconfig */,
 				1972D5A108C4D765B5459C1F /* Pods-BitnetVehicleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2472DD261F9DA90074B6B2 /* VehicleCell.xib in Resources */,
 				2E24724C261E659A0074B6B2 /* LaunchScreen.storyboard in Resources */,
 				2E247249261E659A0074B6B2 /* Assets.xcassets in Resources */,
 				2E247247261E65990074B6B2 /* Main.storyboard in Resources */,
@@ -407,8 +489,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E24730C261FAAE80074B6B2 /* Vehicle.swift in Sources */,
+				2E247302261FAA1A0074B6B2 /* ApiClient.swift in Sources */,
+				2E2472DC261F9DA90074B6B2 /* VehicleCell.swift in Sources */,
+				2E2472FD261FA9EE0074B6B2 /* ApiRequest.swift in Sources */,
 				2E247244261E65990074B6B2 /* ViewController.swift in Sources */,
 				2E247240261E65990074B6B2 /* AppDelegate.swift in Sources */,
+				2E247307261FAAB00074B6B2 /* GeneralRequest.swift in Sources */,
 				2E247242261E65990074B6B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,7 +683,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -616,7 +703,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jozsef-Jagicza.BitnetVehicle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

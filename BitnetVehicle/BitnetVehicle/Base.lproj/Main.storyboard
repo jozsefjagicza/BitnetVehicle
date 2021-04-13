@@ -16,6 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The list is empty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yg-Hf-LRs">
+                                <rect key="frame" x="144.5" y="437.5" width="125" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSQ-l7-8o1">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
@@ -39,10 +45,13 @@
                             <constraint firstAttribute="bottom" secondItem="eSQ-l7-8o1" secondAttribute="bottom" id="03r-oZ-1Yq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eSQ-l7-8o1" secondAttribute="trailing" id="1Bz-jA-94r"/>
                             <constraint firstItem="eSQ-l7-8o1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CPK-Fp-vGu"/>
+                            <constraint firstItem="2yg-Hf-LRs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D5l-hU-fKl"/>
                             <constraint firstItem="eSQ-l7-8o1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cGg-lU-37R"/>
+                            <constraint firstItem="2yg-Hf-LRs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ei5-J6-EjC"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="listIsEmptyLabel" destination="2yg-Hf-LRs" id="Yva-k7-x2q"/>
                         <outlet property="splashView" destination="eSQ-l7-8o1" id="aad-dJ-5YK"/>
                     </connections>
                 </viewController>
